@@ -1,0 +1,16 @@
+[
+    {
+        "model": "totspotapi.allergy",
+        "pk": 1,
+        "fields": {
+            "type": "None"
+        }
+    },
+    {
+        "model": "totspotapi.allergy",
+        "pk": 2,
+        "fields": {
+            "type": "Food"
+        }
+    }
+]

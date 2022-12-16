@@ -1,0 +1,11 @@
+[
+    {
+        "model": "totspotapi.comment",
+        "pk": 1,
+        "fields": {
+            "user": 2,
+            "post": 1,
+            "content": "Okay, thank you for letting us know"
+        }
+    }
+]

@@ -1,0 +1,11 @@
+[
+    {
+        "model": "totspotapi.parent",
+        "pk": 1,
+        "fields": {
+            "user": 1,
+            "phone_number": 3844329383
+        }
+    }
+
+]
