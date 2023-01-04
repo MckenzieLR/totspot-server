@@ -15,7 +15,13 @@ class ParentView(ViewSet):
     # if totUser is staff get all parents else get parent who is logged in to only show parent details for parent 
     # who is logged in 
     def list(self, request):
-        parents = Parent.objects.all()
+
+        if request.auth.user.is_staff:
+            parents = Parent.objects.all()
+
+        else:
+            parents = Parent.objects.filter(user=request.auth.user)
+
         serializer = ParentSerializer(parents, many=True)
         return Response(serializer.data)
     

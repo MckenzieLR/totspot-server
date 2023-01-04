@@ -6,7 +6,7 @@
             "parent": 1,
             "first_name": "Kate",
             "last_name": "Chamber",
-            "allergies": 2,
+            "allergies": [2],
             "medications": "none",
             "age": 3,
             "details": "Food allergy to strawberries"
@@ -19,7 +19,7 @@
             "parent": 1,
             "first_name": "Luke",
             "last_name": "Chamber",
-            "allergies": 1,
+            "allergies": [1],
             "medications": "none",
             "age": 2,
             "details": "No allergies and no medications"

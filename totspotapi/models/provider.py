@@ -6,5 +6,5 @@ class Provider(models.Model):
     phone_number = models.IntegerField()
 
     @property
-    def provider_name(self):
+    def full_name(self):
         return f'{self.user.first_name} {self.user.last_name}'

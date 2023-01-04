@@ -16,7 +16,7 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 from django.conf.urls import include
-from totspotapi.views import CommentView, AllergyView, ParentView, PostView, ProviderView, ChildView, register_user, login_user
+from totspotapi.views import CommentView, AllergyView, ParentView, PostView, ProviderView, ChildView, AnnouncementView, register_user, login_user
 from rest_framework import routers
 
 
@@ -27,6 +27,7 @@ router.register(r'parents', ParentView, 'parent')
 router.register(r'posts', PostView, 'post')
 router.register(r'providers', ProviderView, 'provider')
 router.register(r'children', ChildView, 'child')
+router.register(r'announcements', AnnouncementView, 'announcement')
 
 urlpatterns = [
     path('register', register_user),

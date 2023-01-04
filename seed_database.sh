@@ -12,3 +12,5 @@ python3 manage.py loaddata children
 python3 manage.py loaddata posts
 python3 manage.py loaddata comments
 python3 manage.py loaddata providers
+python3 manage.py loaddata announcements
+python3 manage.py loaddata checkins

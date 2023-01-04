@@ -38,6 +38,6 @@ class ProviderSerializer(serializers.ModelSerializer):
         fields = (
             'id',
             'user',
-            'provider_name',
+            'full_name',
             'phone_number'
         )

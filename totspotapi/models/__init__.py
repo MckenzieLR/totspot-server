@@ -5,3 +5,5 @@ from .comment import Comment
 from .parent import Parent
 from .post import Post
 from .provider import Provider
+from .announcement import Announcement
+from .daily_check_in import DailyCheckIn

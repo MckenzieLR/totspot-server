@@ -1,0 +1,12 @@
+[
+    {
+        "model": "totspotapi.dailycheckin",
+        "pk": 1,
+        "fields": {
+            "provider": 1,
+            "child": 1,
+            "content": "Okay, thank you for letting us know",
+            "date": "2022-12-01"
+        }
+    }
+]
